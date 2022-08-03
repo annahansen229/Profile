@@ -1,15 +1,20 @@
-import { Link } from "react-router-dom"
-import "bootstrap/dist/css/bootstrap.min.css";
-import Image from "../images/harry-potter-logo-tutorial-final.jpg";
-
+import Nav from "react-bootstrap/Nav"
 
 export default function Navbar() {
-    return <nav>   
-        <img className="logo" src={Image} alt="Harry Potter Logo" />
-        <Link to='/home'>Home</Link> |{" "}
-        <Link to='/characters'>Characters</Link> |{" "}
-        <Link to='/spells'>Spells</Link> |{" "}
-         <Link to='/potions'>Potions</Link> |{" "}
-        <Link to='/credits'>Credits</Link> |{" "}
-    </nav>
+  return (
+    <Nav className="justify-content-center container" fill>
+      <Nav.Item>
+        <Nav.Link href="/">About</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link href="/previous-work">Previous Work</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link href="/projects">Projects</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link href="/contact">Contact</Nav.Link>
+      </Nav.Item>
+    </Nav>
+  )
 }

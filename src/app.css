@@ -1,0 +1,8 @@
+.container {
+  width: 50vw !important;
+  margin: auto;
+}
+
+.avatar {
+  max-width: 25vw !important;
+}
