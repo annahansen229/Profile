@@ -6,9 +6,12 @@
 //     description: "",
 //   },
 
+import dorlogo from "../images/dor_logo.jpg"
+
 export const jobs = [
   {
     title: "Full Stack Software Engineer",
+    logo: "https://www.darkmattersoftware.io/static/images/DMS_logo.svg",
     company: "Dark Matter Software",
     start: "",
     end: "Current",
@@ -17,6 +20,7 @@ export const jobs = [
   },
   {
     title: "Computer Audit Specialist",
+    logo: dorlogo,
     company: "State of Washington, Department of Revenue",
     start: "2017",
     end: "2021",
@@ -25,6 +29,7 @@ export const jobs = [
   },
   {
     title: "Field Audit Manager",
+    logo: dorlogo,
     company: "State of Washington, Department of Revenue",
     start: "2015",
     end: "2017",
@@ -33,6 +38,7 @@ export const jobs = [
   },
   {
     title: "Field Auditor",
+    logo: dorlogo,
     company: "State of Washington, Department of Revenue",
     start: "2009",
     end: "2015",
