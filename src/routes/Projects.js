@@ -5,7 +5,7 @@ import { Link45deg } from "react-bootstrap-icons"
 const Projects = () => {
   console.log(projects)
   return (
-    <div className="projects container">
+    <div className="container">
       {projects.map((project) => {
         return (
           <div className="card border-dark mb-2">
