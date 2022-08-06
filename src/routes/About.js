@@ -8,7 +8,6 @@ const About = () => {
       <div className="card border-dark mb-2">
         <div className="card-header">
           <h4>Anna Hansen</h4>
-
           <h6 className="text-muted">M.S. in Computer Science, 2022</h6>
           <h6 className="text-muted">
             B.S. in Accounting,
@@ -22,6 +21,7 @@ const About = () => {
                 src={anna}
                 alt="Anna Hansen"
                 className="img-thumbnail float-left avatar mr-2"
+                width={"200px"}
               />
               <p className="bio card-text">
                 Hello, my name is Anna. I am currently working as a Full Stack

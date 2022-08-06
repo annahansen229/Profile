@@ -11,7 +11,7 @@ const Projects = () => {
           <div className="card border-dark mb-2">
             <div className="card-header">
               <h4>
-                <a href={project.url} className="project">
+                <a href={project.url} className="project text-dark">
                   {project.title}
                   <Link45deg />
                 </a>

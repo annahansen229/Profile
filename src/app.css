@@ -4,11 +4,3 @@
     margin: auto;
   }
 }
-
-.avatar {
-  width: 200px;
-}
-
-a.project {
-  color: var(--bs-dark);
-}
