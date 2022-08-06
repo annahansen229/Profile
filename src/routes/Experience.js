@@ -1,10 +1,10 @@
 import React from "react"
 import { jobs } from "../data/jobs"
 
-const PreviousWork = () => {
+const Experience = () => {
   // create a card for each job in jobs
   return (
-    <div className="previous-work container">
+    <div className="container">
       {jobs.map((job) => {
         const role = (
           <>
@@ -46,4 +46,4 @@ const PreviousWork = () => {
   )
 }
 
-export default PreviousWork
+export default Experience
