@@ -1,10 +1,10 @@
 // {
-//     title: "",
-//     company: "",
-//     start: "",
-//     end: "",
-//     description: "",
-//   },
+//   title: "",
+//   company: "",
+//   start: "",
+//   end: "",
+//   description: "",
+// },
 
 import dorlogo from "../images/dor_logo.jpg"
 

@@ -6,3 +6,7 @@
 .avatar {
   max-width: 25vw !important;
 }
+
+a.project {
+  color: var(--bs-dark);
+}
