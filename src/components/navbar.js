@@ -2,7 +2,7 @@ import Nav from "react-bootstrap/Nav"
 
 export default function Navbar() {
   return (
-    <Nav className="justify-content-center container d-flex flex-nowrap" fill>
+    <Nav className="justify-content-center d-flex flex-nowrap" fill>
       <Nav.Item>
         <Nav.Link href="/">About</Nav.Link>
       </Nav.Item>

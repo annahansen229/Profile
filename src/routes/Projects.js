@@ -1,15 +1,15 @@
 import React from "react"
 import { projects } from "../data/projects"
 import { Link45deg } from "react-bootstrap-icons"
+import { Card } from "react-bootstrap"
 
 const Projects = () => {
-  console.log(projects)
   return (
-    <div className="container">
+    <>
       {projects.map((project) => {
         return (
-          <div className="card border-dark mb-2">
-            <div className="card-header">
+          <Card className="border-dark mb-2">
+            <Card.Header>
               <h4>
                 <a href={project.url} className="project text-dark">
                   {project.title}
@@ -26,18 +26,18 @@ const Projects = () => {
                   <>Libraries/Frameworks: {project.frameworks.join()}</>
                 )}
               </h6>
-            </div>
-            <div className="card-body">
-              <div className="card-text">
+            </Card.Header>
+            <Card.Body>
+              <Card.Text>
                 {project.description.split("\n").map((str) => (
                   <p>{str}</p>
                 ))}
-              </div>
-            </div>
-          </div>
+              </Card.Text>
+            </Card.Body>
+          </Card>
         )
       })}
-    </div>
+    </>
   )
 }
 

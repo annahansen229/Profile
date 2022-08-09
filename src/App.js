@@ -1,6 +1,7 @@
 import React from "react"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { Container } from "react-bootstrap"
 
 import About from "./routes/About"
 import Experience from "./routes/Experience"
@@ -13,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 export default function App() {
   return (
-    <div className="App">
+    <Container>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -23,6 +24,6 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </Container>
   )
 }
