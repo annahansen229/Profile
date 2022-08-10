@@ -1,37 +1,31 @@
 import Nav from "react-bootstrap/Nav"
 import { useState } from "react"
+import { NavLink } from "react-router-dom"
 
 export default function Navbar() {
-  const [key, setKey] = useState("about")
-
   return (
     <Nav
       fill
       variant="tabs"
-      activeKey={key}
-      onSelect={(k) => {
-        console.log(k)
-        setKey(k)
-      }}
-      className="justify-content-center d-flex flex-nowrap mb-2"
+      className="justify-content-center d-flex flex-nowrap my-2"
     >
       <Nav.Item>
-        <Nav.Link href="/" eventKey="about">
+        <Nav.Link as={NavLink} to="/">
           About
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/experience" eventKey="experience">
+        <Nav.Link as={NavLink} to="/experience">
           Experience
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/projects" eventKey="projects">
+        <Nav.Link as={NavLink} to="/projects">
           Projects
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/contact" eventKey="contact">
+        <Nav.Link as={NavLink} to="/contact">
           Contact
         </Nav.Link>
       </Nav.Item>
