@@ -25,7 +25,11 @@ const Experience = () => {
         const cardHeader = job.logo ? (
           <Row className="m-0 align-items-end">
             <Col className="p-0">{role}</Col>
-            <img src={job.logo} alt="" className="col-2 p-0" />
+            <img
+              src={job.logo}
+              alt={`{job.company} logo`}
+              className="col-2 p-0"
+            />
           </Row>
         ) : (
           role
