@@ -2,7 +2,7 @@ import Nav from "react-bootstrap/Nav"
 import { useState } from "react"
 
 export default function Navbar() {
-  const [key, setKey] = useState("experience")
+  const [key, setKey] = useState("about")
 
   return (
     <Nav
