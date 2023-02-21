@@ -1,5 +1,4 @@
 import Nav from "react-bootstrap/Nav"
-import { useState } from "react"
 import { NavLink } from "react-router-dom"
 
 export default function Navbar() {
@@ -24,11 +23,11 @@ export default function Navbar() {
           Projects
         </Nav.Link>
       </Nav.Item>
-      <Nav.Item>
+      {/* <Nav.Item>
         <Nav.Link as={NavLink} to="/contact">
           Contact
         </Nav.Link>
-      </Nav.Item>
+      </Nav.Item> */}
     </Nav>
   )
 }
