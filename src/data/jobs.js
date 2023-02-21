@@ -6,26 +6,27 @@
 //   description: "",
 // },
 
-import dorlogo from "../images/dor_logo.jpg"
+import dorlogo from "../images/dor_logo.png"
+import dmslogo from "../images/dms_logo.png"
 
 export const jobs = [
   {
     title: "Full Stack Software Engineer",
-    logo: "https://www.darkmattersoftware.io/static/images/DMS_logo.svg",
+    logo: dmslogo,
     company: "Dark Matter Software",
-    start: "",
+    start: "June 2022",
     end: "Current",
     description:
-      "I maintain and develop front- and back-end features of web-based software solutions with a focus on Django and React frameworks. I work directly with clients to gather specifications, provide professional guidance towards best practices, and successfully implement new or updated features.",
+      "I maintain and develop front- and back-end features of web-based software solutions with a focus on Django and React frameworks. I work directly with clients to gather specifications, provide professional guidance towards best practices, and successfully implement new or updated features and squash bugs. \n I led an effort to implement front end component testing, establishing front end testing in the promotion pipeline, expanding testing coverage to > 80%, and implementing a test driven development policy. \n I have independently expanded my knowledge of Azure cloud computing resources in order to plan and prepare for incremental migration of application features to the cloud.",
   },
   {
-    title: "Computer Audit Specialist",
+    title: "Audit Program Support Specialist",
     logo: dorlogo,
     company: "State of Washington, Department of Revenue",
     start: "2017",
     end: "2021",
     description:
-      "I was responsible for the development and maintenance of internal Audit 2000 software, written in Visual Basic for Applications, including delivering two weeks of training to all new staff. I was also responsible for internal performance reporting, which included development and maintenance of related internal databases and software, primarily in Microsoft Access. \n I represented the Audit Division in DOR's legacy systems replacement project. I was responsible for the full life cycle of a feature request, beginning with gathering requirements from Audit Division stakeholders, submitting a written technical request, advocating for the request in inter-divisional committees, working with internal and external developers to implement a solution, designing and carrying out testing, and finally providing training to staff and assessing the success of each implementation",
+      "I represented the Audit Division in DOR's legacy systems replacement project as a subject matter expert. I was responsible for the full life cycle of a feature request, including gathering requirements from stakeholders, submitting a written technical request, advocating for the request in interdivisional committees, working with internal and external developers, designing and carrying out testing, providing staff training and periodically reporting to Division management. \n I was responsible for development and maintenance of internal Audit 2000 software, based in Microsoft Excel, used by staff in conducting excise tax audits. This included delivering two weeks of onboarding training to all new staff. I was also responsible for internal performance reporting, which included development and maintenance of related internal databases and software, primarily in Microsoft Access. \n I worked with Microsoft Visual Basic for Applications, and SQL.",
   },
   {
     title: "Field Audit Manager",

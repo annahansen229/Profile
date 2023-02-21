@@ -1,9 +1,8 @@
 import React from "react"
-import { Card, Col, Row } from "react-bootstrap"
+import { Card, Col, Row, Image } from "react-bootstrap"
 import { jobs } from "../data/jobs"
 
 const Experience = () => {
-  // create a card for each job in jobs
   return (
     <>
       {jobs.map((job) => {
@@ -23,13 +22,17 @@ const Experience = () => {
         )
 
         const cardHeader = job.logo ? (
-          <Row className="m-0 align-items-end">
+          <Row className="m-0">
             <Col className="p-0">{role}</Col>
-            <img
-              src={job.logo}
-              alt={`{job.company} logo`}
-              className="col-2 p-0"
-            />
+            <Col xs='auto' className="p-0">
+              <Image
+                fluid
+                src={job.logo}
+                alt={`${job.company} logo`}
+                style={{maxHeight:'100px', maxWidth:'100px'}}
+                className='float-right'
+              />
+            </Col>
           </Row>
         ) : (
           role

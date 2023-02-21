@@ -41,8 +41,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "Final Project for Intro to Web Development Summer 2022",
+  "description": "Anna Hansen Professional Profile",
   "main": "index.js",
-  "author": "",
+  "author": "Anna Hansen",
   "license": "ISC"
 }

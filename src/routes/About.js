@@ -1,34 +1,52 @@
 import React from "react"
 import { Card, Col, Row } from "react-bootstrap"
 
-import anna from "../images/anna.png"
+import Anna from "../images/Anna.jpg"
 
 const About = () => {
   return (
     <Card className="border-dark mb-2">
       <Card.Header>
         <h4>Anna Hansen</h4>
-        <h6 className="text-muted">M.S. in Computer Science, 2022</h6>
+        <h6 className="text-muted">
+          M.S. in Computer Science, 
+          <a href='https://www.pdx.edu/computer-science/cybersecurity'> Cybersecurity Certificate</a>
+          , Winter 2023
+        </h6>
         <h6 className="text-muted">
           B.S. in Accounting,
-          <span className="font-italic"> summa cum laude</span>, 2009
+          <span className="font-italic"> summa cum laude</span>
+          , 2009
         </h6>
       </Card.Header>
       <Card.Body>
         <Row>
-          <Col>
+          <Col xs='auto'>
             <img
-              src={anna}
+              src={Anna}
               alt="Anna Hansen"
               className="img-thumbnail float-left avatar mr-2"
-              width={"200px"}
+              width={"300px"}
             />
-            <p className="bio card-text">
-              Hello, my name is Anna. I am currently working as a Full Stack
-              Software Engineer. I spent the first 10 years of my professional
-              career working as an accountant in tax administration for the
-              State of Washington. My riveting work stories are always a big hit
-              at parties.
+          </Col>
+          <Col>
+            <p>
+              Hello, my name is Anna.
+            </p>
+            <p>
+              I am currently working as a Full Stack Software Engineer at Dark Matter Software. 
+            </p>
+            <p>
+              I recently earned a Master's in Computer Science from Portland State University, where I studied a broad
+              range of topics including Programming Languages, Cloud Computing, Security, and
+              Database Management. 
+            </p>
+            <p>
+              I spent the first 11 years of my professional career working as an accountant in tax administration for the
+              State of Washington Department of Revenue. 
+            </p>
+            <p>
+              In my free time I enjoy gardening, roller skating, and volunteering.
             </p>
           </Col>
         </Row>
