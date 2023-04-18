@@ -31,12 +31,4 @@ export const projects = [
     frameworks: ["react", "bootstrap"],
     url: "https://github.com/annahansen229/Portfolio/tree/main/FrontEndFinalProject",
   },
-  {
-    title: "Profile Page",
-    description:
-      "You are here! :) \n This basic website displays my professional profile and is linked on my resume and professional social media profiles. This was originally written as my final project for Intro to Web Development in Summer 2022",
-    languages: ["Javascript", "HTML", "CSS"],
-    frameworks: ["react", "bootstrap"],
-    url: "https://github.com/annahansen229/Profile",
-  },
 ]
