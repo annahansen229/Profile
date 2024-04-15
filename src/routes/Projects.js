@@ -18,12 +18,12 @@ const Projects = () => {
               </h4>
               <h5 className="text-muted">
                 {project.languages && (
-                  <>Languages: {project.languages.join()}</>
+                  <>Languages: {project.languages.join(", ")}</>
                 )}
               </h5>
               <h6 className="text-muted">
                 {project.frameworks && (
-                  <>Libraries/Frameworks: {project.frameworks.join()}</>
+                  <>Libraries/Frameworks: {project.frameworks.join(", ")}</>
                 )}
               </h6>
             </Card.Header>

@@ -14,16 +14,16 @@ export const jobs = [
     title: "Full Stack Software Engineer",
     logo: dmslogo,
     company: "Dark Matter Software",
-    start: "June 2022",
+    start: "2022",
     end: "Current",
     description:
-      "As a full-stack developer, I work collaboratively with clients to identify their needs and define specifications for new feature requests, implement new features, and squash bugs. \n I led an effort to implement front end component testing, establishing front end testing in the promotion pipeline, expanding testing coverage to > 80%, and implementing a test driven development policy. \n I have independently expanded my knowledge of Azure cloud computing resources in order to plan and prepare for incremental migration of application features to the cloud. \n I work with a Django backend and a React frontend.",
+      "As a full-stack developer, I work collaboratively with clients to identify their needs and define specifications for new feature requests, implement new features, and squash bugs. \n Most recently, I have worked closely with a team of new developers to onboard them into the application. I provide expert-level guidance in principles of database design, best practices for writing clean and maintainable front- and back-end code, and ensuring adequate testing coverage is maintained. I have been responsible for reviewing all PRs and am currently advising the establishment of a QA team as we continue to expand the application. \n In my first year, I led an effort to implement front-end component testing, establishing front end testing in the promotion pipeline, expanding testing coverage to > 80%, and implementing a test driven development policy. I have also led, and continue to work incrementally on, an effort to refactor the front-end code base, moving away from the existing monolithic component design and towards smaller, more modular, and reusable components to reduce complexity, reduce repeated code, and improve testing coverage and maintainability. \n I work with a Django backend and a React frontend in an Azure Cloud environment.",
   },
   {
     title: "Audit Program Support Specialist",
     logo: dorlogo,
     company: "State of Washington, Department of Revenue",
-    start: "2016",
+    start: "2017",
     end: "2021",
     description:
       "I represented the Audit Division in DOR's legacy systems replacement project as a subject matter expert. I was responsible for the full life cycle of a feature request, including gathering requirements from stakeholders, submitting a written technical request, advocating for the request in interdivisional committees, working with internal and external developers, designing and carrying out testing, providing staff training and periodically reporting to Division management. \n I was responsible for development and maintenance of internal Audit 2000 software, based in Microsoft Excel, used by staff in conducting excise tax audits. This included delivering two weeks of onboarding training to all new staff. I was also responsible for internal performance reporting, which included development and maintenance of related internal databases and software, primarily in Microsoft Access. \n I was an expert advisor to field staff conducting excise tax audits. I provide end to end guidance and assistance related to audit planning, obtaining and working with large or complex data sets, and statistical sampling.\n I delivered two weeks of onboarding training to all new staff, as well as periodic onsite training in random sampling and other data management tools and strategies to more experienced staff.\n I worked with Microsoft Visual Basic for Applications, and SQL.",
@@ -33,7 +33,7 @@ export const jobs = [
     logo: dorlogo,
     company: "State of Washington, Department of Revenue",
     start: "2015",
-    end: "2016",
+    end: "2017",
     description:
       "First line supervisor of a professional audit staff located in Vancouver, Washington and covering the territory of Southwest Washington and the State of Oregon. \n With expert knowledge of tax administration, audit policies and procedures, excise tax rules and laws and taxpayer rights: \n - Plan and develop methods and programs, make assignments, and direct the activities of personnel involved in auditing activities, \n - Recommend strategies and policies for implementing audit operations to the Audit Management Team, \n - Conduct taxpayer conferences to resolve difficult and sensitive disputed tax issues as first step in the appeals process \n During this time frame I was Chair of the Audit Division Recognition Committee, as well as a member of several ad hoc committees addressing emergent issues in policies, procedures, and operations of the division.",
   },
@@ -52,7 +52,7 @@ export const jobs = [
     start: "2007",
     end: "2009",
     description:
-      "I was responsible for the in house full cycle accounting functions of a small-to-medium sized law firm, including payroll with ADP, collections, 1099 preparation, and IOLTA compliance. I improved existing operations and procedures through independently learning the features of Juris software which had previously been underutilized."
+      "I was responsible for the in house full cycle accounting functions of a small-to-medium sized law firm, including payroll with ADP, collections, 1099 preparation, and IOLTA compliance. I improved existing operations and procedures through independently learning the features of Juris software which had previously been underutilized.",
   },
   {
     title: "Staff Accountant",
@@ -60,6 +60,6 @@ export const jobs = [
     start: "2005",
     end: "2007",
     description:
-      "As a staff accountant my primary responsibility consisted of providing full cycle accounting services to a large Portland-based office supply and furniture supplier."
+      "As a staff accountant my primary responsibility consisted of providing full cycle accounting services to a large Portland-based office supply and furniture supplier.",
   },
 ]

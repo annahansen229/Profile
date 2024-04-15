@@ -9,19 +9,13 @@ export default function Navbar() {
       className="justify-content-center d-flex flex-nowrap my-2"
     >
       <Nav.Item>
-        <Nav.Link as={NavLink} to="/">
-          About
-        </Nav.Link>
+        <Nav.Link as={NavLink} to="/">About</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link as={NavLink} to="/experience">
-          Experience
-        </Nav.Link>
+        <Nav.Link as={NavLink} to="/experience">Experience</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link as={NavLink} to="/projects">
-          Projects
-        </Nav.Link>
+        <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
       </Nav.Item>
       {/* <Nav.Item>
         <Nav.Link as={NavLink} to="/contact">

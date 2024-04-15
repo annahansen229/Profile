@@ -1,11 +1,3 @@
-// {
-//     title: '',
-//     description: '',
-//     languages: [],
-//     frameworks: [],
-//     url: ,
-// },
-
 export const projects = [
   {
     title: "Sudoku Puzzle App",
