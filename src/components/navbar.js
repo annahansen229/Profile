@@ -17,6 +17,9 @@ export default function Navbar() {
       <Nav.Item>
         <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
       </Nav.Item>
+      <Nav.Item>
+        <Nav.Link as={NavLink} to="/volunteering">Volunteering</Nav.Link>
+      </Nav.Item>
       {/* <Nav.Item>
         <Nav.Link as={NavLink} to="/contact">
           Contact
