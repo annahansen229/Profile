@@ -1,16 +1,16 @@
-import React from "react"
 
-import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Container } from "react-bootstrap"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 
+import Navbar from "./components/navbar"
 import About from "./routes/About"
+import Contact from "./routes/Contact"
 import Experience from "./routes/Experience"
 import Projects from "./routes/Projects"
-import Contact from "./routes/Contact"
-import Navbar from "./components/navbar"
+import Volunteering from "./routes/Volunteering"
 
-import "./app.css"
 import "bootstrap/dist/css/bootstrap.min.css"
+import "./app.css"
 
 export default function App() {
   return (
@@ -21,6 +21,7 @@ export default function App() {
           <Route path="/" element={<About />} />
           <Route path="experience" element={<Experience />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="volunteering" element={<Volunteering />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>

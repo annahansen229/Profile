@@ -1,5 +1,8 @@
 [
     "React",
     "Django",
-    "Flask"
+    "Flask",
+    "FastAPI",
+    "SQLAlchemy",
+    "dash"
 ]
