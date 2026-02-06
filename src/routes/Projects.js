@@ -1,7 +1,6 @@
-import React from "react"
+import { Card, Image } from "react-bootstrap"
 import { projects } from "../data/projects"
-import { Link45deg } from "react-bootstrap-icons"
-import { Card } from "react-bootstrap"
+import ghLogo from "../images/GitHub_Invertocat_Black.png"
 
 const Projects = () => {
   return (
@@ -9,12 +8,23 @@ const Projects = () => {
       {projects.map((project) => {
         return (
           <Card className="border-dark mb-2">
-            <Card.Header>
+            <Card.Header >
               <h4>
-                <a href={project.url} className="project text-dark">
-                  {project.title}
-                  <Link45deg />
-                </a>
+                {project.url ? 
+                  <a href={project.url} className="project text-dark">
+                    {project.title}
+                  </a>
+                  : <>{project.title}</>}
+                
+                {project.repoUrl && 
+                  <a href={project.repoUrl} className="float-end">
+                    <Image
+                      src={ghLogo}
+                      style={{width: 24, height: 24}}
+                      
+                    />
+                  </a>
+                }
               </h4>
               <h5 className="text-muted">
                 {project.languages && (
@@ -32,6 +42,7 @@ const Projects = () => {
                 {project.description.split("\n").map((str) => (
                   <p>{str}</p>
                 ))}
+                
               </Card.Text>
             </Card.Body>
           </Card>

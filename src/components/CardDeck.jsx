@@ -1,6 +1,22 @@
-import React from 'react';
 
 import { Card, Col, Row } from 'react-bootstrap';
+
+function compareFn(a, b) {
+    if (typeof a === 'string') {
+        return a.localeCompare(b)
+    } else {
+        if (a.priority < b.priority) {
+            return -1
+        }
+
+        if (a.priority > b.priority) {
+            return 1
+        }
+        
+        return a.skill.localeCompare(b.skill)
+    }
+
+}
 
 const CardDeck = ({title, data}) => (
     <>
@@ -11,9 +27,9 @@ const CardDeck = ({title, data}) => (
         </Row>
         <Row>
             <Col className='d-flex flex-wrap'>
-                {data.sort().map((item, index) => (
+                {data.sort(compareFn).map((data, index) => (
                     <Card key={index} className='me-2 mt-2'>
-                        <div className='p-2'>{item}</div>
+                        <div className='p-2'>{data.skill ?? data}</div>
                     </Card>
                 ))}
             </Col>
