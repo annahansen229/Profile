@@ -37,16 +37,20 @@ const About = () => (
           <p>
             I take a special interest in writing clean, maintainable, testable code, regardless of the language I am working in.
             I love the challenge of refactoring code that is difficult to read and understand, and enjoy the elegance of 
-            the functional style. I am adept at picking up new languages, having both studied programming language semantics, 
-            and possessing a natural aptitide for language acquisition.
+            the functional style. I took a particular interest in studying programming language semantics during my 
+            Master's program, which gives me a good ability to pick up new languages (and dust off old ones). 
           </p>
           <p>
             While earning my Master's in Computer Science from Portland State University, I studied a broad range of topics 
-            including Programming Languages, Cloud Computing, Security, and Database Management.
+            including Programming Languages, Cloud Computing, Security, and Database Management. I have spent the last 
+            three years at Lam Research working on full stack feature implementation in Python and Javascript, and 
+            writing manufacturing test automation scripts in Python.
           </p>
           <p>
             I spent the first 11 years of my professional career working as an accountant and custom software developer 
-            in tax administration for the State of Washington Department of Revenue, Audit Division.
+            in tax administration for the State of Washington Department of Revenue, Audit Division. During this time
+            I propelled my career forward through natural curiousity and a drive to learn. I discovered my love of, and 
+            talent for, mentoring and training others. 
           </p>
           <p>
             I believe in bringing our whole selves to the workplace. You will find me to be direct, curious, analytical, 
