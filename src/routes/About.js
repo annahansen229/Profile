@@ -27,7 +27,7 @@ const About = () => (
           <img
             src={Anna}
             alt="Anna Hansen"
-            className="img-thumbnail avatar mx-3 float-start"
+            className="img-thumbnail avatar mx-3 float-md-start"
             width={"300px"}
           />
           <p>Hello, my name is Anna.</p>
