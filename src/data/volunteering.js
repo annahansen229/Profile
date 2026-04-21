@@ -49,14 +49,19 @@ export const volunteering = [
         logo:rdLogo,
         roles: [
             {
+                title: "Treasurer",
+                start: "2023",
+                end: "2025",
+            },
+            {
                 title: "Communications Chair",
                 start: "2022",
                 end: "2024",
             },
             {
-                title: "Treasurer",
-                start: "2023",
-                end: "2025",
+                title: "Peer Support Meeting Co-Facilitator",
+                start: "2021",
+                end: "2024",
             },
         ]
     }
