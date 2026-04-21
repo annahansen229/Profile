@@ -1,5 +1,4 @@
 import fvllLogo from "../images/fvll.jpg"
-import rdLogo from "../images/rd.png"
 import rcrLogo from "../images/Rose_City_Rollers_logo_2018.png"
 
 export const volunteering = [
@@ -44,20 +43,4 @@ export const volunteering = [
             }
         ]
     },
-    {
-        organization: "Recovery Dharma PDX",
-        logo:rdLogo,
-        roles: [
-            {
-                title: "Communications Chair",
-                start: "2022",
-                end: "2024",
-            },
-            {
-                title: "Treasurer",
-                start: "2023",
-                end: "2025",
-            },
-        ]
-    }
 ]

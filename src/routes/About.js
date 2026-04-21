@@ -38,13 +38,16 @@ const About = () => (
             I take a special interest in writing clean, maintainable, testable code, regardless of the language I am working in.
             I love the challenge of refactoring code that is difficult to read and understand, and enjoy the elegance of 
             the functional style. I took a particular interest in studying programming language semantics during my 
-            Master's program, which gives me a good ability to pick up new languages (and dust off old ones). 
+            Master's program, which gives me a knack for picking up new languages (and dusting off old ones). 
           </p>
           <p>
             While earning my Master's in Computer Science from Portland State University, I studied a broad range of topics 
-            including Programming Languages, Cloud Computing, Security, and Database Management. I have spent the last 
-            three years at Lam Research working on full stack feature implementation in Python and Javascript, and 
-            writing manufacturing test automation scripts in Python.
+            including Programming Languages, Cloud Computing, Security, and Database Management. For the first two years
+            of my time at Lam Research, I was a member of the Gemini application development team, working on full stack 
+            feature implementation in Python and Javascript. I spent my third year at Lam supporting the transfer of project 
+            ownership to an India-based development team, in preparation for global adoption of Gemini. Since 2025, I have 
+            been working to support the global legacy system transition, leveraging my expertise in the system to bring 
+            legacy test plans online.
           </p>
           <p>
             I spent the first 11 years of my professional career working as an accountant and custom software developer 
